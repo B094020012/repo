@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="add_post.css" type="text/css">
+        <title>add post page</title>
+        <script src="add_post.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Serif+TC:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <p class="head">標題</p>
+        <input type="text" id="title"><br><br>
+        <div id="chooseVersion">
+            <img src="img/version1.png" class="version_img" id="version1">
+            <img src="img/version2.png" class="version_img" id="version2">
+            <img src="img/version3.png" class="version_img" id="version3">
+        </div>
+        <div id="modulechoosing">
+            <div id = "module"></div>
+            <img src="img/confirm.png" id="confirm_img">
+        </div>
+        <br><br>
+        
+        <div id="post_content">
+            <p class="head">預覽</p><br><hr>
+        </div>
+
+        
+
+        <div class="version1_show">
+            <p>內容</p>
+            <textarea id="content1" cols="80" rows="20"></textarea><br>
+        </div>
+        <div class="version2_show">
+            <input type="file" id="inputPic" accept="image/png, image/jpg"><br>
+            <div class="showUpload"></div>
+            <p>內容</p>
+            <textarea id="content2" cols="80" rows="20"></textarea><br>
+        </div>
+       
+        <br><br><button id="btn">發佈</button>
+
+        </div>
+    </body>
+</html>

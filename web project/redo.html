@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>add page</title>
+    <link rel="stylesheet" href="redo.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="redo.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Serif+TC:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <P>內文預覽</P>
+        <div>
+            <textarea id="textareatitle" style="font-weight:bold;" >請輸入標題...</textarea>
+        </div>
+    </div>
+    <div id="choosebar">
+        <img src="img/image.png" class="changeSize" id="addPic" title="新增圖片">
+        <img src="img/pictext.png" class="changeSize" id="textpic" title="新增圖文">
+        <img src="img/text.png" class="changeSize" id="addtext" title="新增文字">
+    </div>
+    <div id="uploadImgInterface">
+        <input type="file" accept="image/png, image/jpg" id="uploadImg">
+        <img src="img/cross_mark.png"id="crossmark">
+        <div id="showUpload">請選擇圖片</div>
+        <img src="img/confirm.png" class="changeSize" id="uploadImgCheckButton">
+    </div>
+    <div class="withPic">
+        <div class="pic"></div>
+        <img src="" class="versionchoosing">
+    </div>
+    <div id="yesorno">
+        是否要刪除圖片？
+        <div class="arrow">><div id="yes">確定</div></div>
+        <div class="arrow">><div id="no">取消</div></div>
+    </div>
+    <div class="textareadiv">
+        <textarea class="textarea">請輸入文字...</textarea>
+    </div>
+
+    <!-- <label>
+        <input type="checkbox" class="toggler">
+        <div class="box"><div class="circle"></div><div class="circle"></div><div class="circle"></div></div>
+    </label> -->
+
+    <!-- <div class="navitems">
+        <ul>
+            <li>圖片在左</li>
+            <li>圖片在右</li>
+            <li>刪除</li>
+        </ul>
+    </div> -->
+
+</body>
+
+
+</html>

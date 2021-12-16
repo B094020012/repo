@@ -1,0 +1,81 @@
+body{
+    background-image: url(img/background.png);
+}
+.pics{
+    position:relative;
+    left: 200px;
+    width: 750px;
+    border-radius: 0.8em;
+}
+#ty{
+    position: relative;
+    bottom: 450px;
+    left: 820px;
+    width: 150px;
+    height: 250px;
+    background-color: white;
+    border-radius: 0% 10% 0% 10%;
+}
+.circular {
+    position: relative;
+    bottom: 120px;
+    margin: 0 auto;
+    width: 10em;
+    height: 10em;
+    animation: rotating 25s infinite linear;
+   
+  }
+  
+  .circular path { 
+    fill: none; 
+  }
+  
+  .circular svg {      
+    display: block;
+    overflow: visible;
+    fill: #68300b;
+  }
+  @keyframes rotating{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+  }
+  #img{
+      position: relative;
+      left: 30px;
+      top:35px;
+      width: 140px;
+      height: 140px;
+      border-radius: 70px;
+      overflow: hidden;
+  }
+  #circlecircle{
+      width: 200px;
+      height: 200px;
+      border-radius: 100px;
+      position: absolute;
+      left: 150px;
+      top:270px;
+      background-image: url(img/background.png);
+      margin: 5px;
+      
+  }
+#big{
+    position: relative;
+    bottom:130px;
+    left: 200px;
+}
+#sidebar{
+    position: relative;
+    left: 150px;
+    top: 240px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    color: #68300b;
+    font-size: 30px;
+}
+text{
+  font-size:10px; 
+  word-spacing: 5px;
+  font-family: 'Fuzzy Bubbles', cursive, bold;
+}

@@ -1,0 +1,75 @@
+h1{
+    font-family: Georgia;
+}
+body{
+    font-family: Roboto;
+    background-color: white;
+}
+blockquote{
+    font-family: bold, monospace;
+}
+th{
+    background-color: lightgray;
+    padding: 10px;
+    text-align: left;
+}
+tr, td, th{
+    text-align: start;
+}
+h3{
+    text-decoration: underline;
+}
+a:link{
+    color: red;
+}
+ a:hover{
+    color: orange;
+} 
+
+ol{
+    list-style: lower-alpha;
+}
+
+#myPic{
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+
+
+#IMG{
+    height: 200px; 
+    width: auto;
+}
+
+#bckCOL{
+    padding: 3px;
+    background-color: yellowgreen;
+    
+}
+
+#quickintro{
+    clear: both;
+}
+
+.texthigh{
+    margin: 3px;
+}
+
+.table{
+    text-align: start;
+}
+
+#clickme{
+    margin-top: 170px;
+    margin-left: 10px;
+    float: left;
+}
+
+#emailshow{
+    display: none;
+}
+#tabs{
+    clear: both;
+}

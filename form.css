@@ -1,0 +1,82 @@
+h2{
+	color: yellowgreen;
+	font: 50px;
+	text-align: left;
+}
+body{
+	background-color: lightyellow
+	/*
+	background-image: url("圖片檔名")
+	background-repeat: no-repeat;
+	*/
+}
+table{
+	border-collapse: collapse;
+}
+table, th, tr, td{
+	height: 50px;
+	width: 300px;
+	text-align: center;
+	border: 1px solid;
+}
+#first_id{
+	height: 20px;
+	background-color: burlywood;
+	color: white;
+}
+.dimgray{
+	background-color: dimgray;
+}
+.white{
+	color: white;
+}
+.center{
+	margin: 20px auto;
+}
+.form1{
+	border: 3px solid coral;
+	background-color: lightcoral;
+	height: 100px;
+	width: 200px;
+	padding: auto;
+	text-align: center;
+	vertical-align: bottom;
+}
+.form2{
+	border: 3px solid white;
+	background-color: ghostwhite;
+	height: 200px;
+	width: 200px;
+	padding: auto;
+	text-align: center;
+	vertical-align: bottom;
+	visibility: hidden;
+}
+.form3{
+	border: 3px solid blanchedalmond;
+	background-color: gainsboro;
+	height: 300px;
+	width: 200px;
+	padding: auto;
+	text-align: center;
+	vertical-align: bottom;
+}
+.inline{
+	display: inline;
+}
+.block{
+	display: block;
+}
+.inline_block{
+	display: inline-block;
+}
+.none{
+	display: none;
+}
+.green{
+	color: white;
+	background-color: green;
+	margin: 10 auto;
+	width: 200px;
+	height: auto;
+}

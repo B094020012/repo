@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>title of website</title><!--end tag, not all tag has end tag, eg, <br>, <hr>...-->
+	<link rel="stylesheet" type="text/css" href="form.css">
+	<link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
+</head>
+<body>
+	<p style = "font-family: 'Otomanopee One';">hello world!</p>
+	<h1 style = "color: darkred;">words in darkred</h1><!--標題(1>>>6)-->
+	<h2>words in yellowgreen and 50px</h2>
+	<p style = "color: skyblue; font: 30px">words in skyblue and 30px</p><!--段落(只允許字跟字之間一個空格，多的就ignore, 自動換行-->
+
+	<!--
+		<img src = "圖片位置" alt = "替代文字"> //沒有end tag
+		
+		<a href = "url(網址)" target = "_blank(目標網頁以新分頁開啟覆蓋)">link text</a>
+
+
+
+	-->
+
+
+	<ul><!--清單最外層(點點)-->
+		<li>li in ul</li><!--清單內元素自動縮排-->
+		<li>li in ul 2</li>
+	</ul>
+	<ol><!--清單最外層(1, 2, 3...)-->
+		<li>li in ul</li><!--清單內元素自動縮排-->
+		<li>li in ul 2</li>
+	</ol>
+
+
+	<table border="1"><!--table最外層-->
+		<tr><!--table row-->
+			<td>td in tr1 in table</td><!--table data(like col)-->
+			<th>td in tr1 in table 2</th><!--thicker than td (table head)-->
+		</tr>
+		<tr>
+			<td>td in tr2 in table</td>
+			<td>td in tr2 in tavle</td>
+		</tr>
+
+	</table>
+	<br><br>
+	<table border="1"><!--border數字越小越細-->
+		<tr>
+			<td>r1c1</td>
+			<td>r1c2</td>
+			<td colspan="2">r1c3</td>
+		</tr>
+		<tr>
+			<td>r2c1</td>
+			<td>r2c2</td>
+			<td>r2c3</td>
+			<td>r2c4</td>
+		</tr>
+		<tr>
+			<td>r3c1</td>
+			<td rowspan="2">r3c2</td>
+			<td>r3c3</td>
+			<td>r3c4</td>
+		</tr>
+		<tr>
+			<td>r4c1</td>
+			<td>r4c3</td>
+			<td>r4c4</td>
+		</tr>
+	</table>
+	<br>
+	<div id = "first_id"><!--同個頁面不同元素不能使用相同id屬性，一個元素只能使用一個id#-->
+		this is the first block using id.
+	</div><br>
+	<div class="dimgray white"><!--不同元素能使用相同class, 一個元素可使用多個class-->
+		this is the second block using class.
+	</div><br>
+	<div id = "first_id" class = "dimgray"><!--權重順序id > class > tag-->
+		use id and class at the same time.
+	</div><br>
+	<div class="dimgray white"><!--div有繼承的屬性，會繼承外面div的樣式-->
+		this is the outside div.
+		<div>
+			this is the inside div.
+		</div>
+		this is the outside div.
+	</div><br>
+	<div class = "form1 inline_block">1</div>
+	<div class="form2 none">2</div>
+	<div class="form3 inline_block">3</div>
+<br><br>
+	<div class="green">
+		<ul>
+			<li>今天</li>
+			<li>晚餐</li>
+			<li>吃什麼</li>
+		</ul>
+	</div>
+	<div class="green">
+		<ul>
+			<li class="inline_block">今天</li>
+			<li class="inline_block">晚餐</li>
+			<li class="inline_block">吃什麼</li>
+		</ul>
+	</div>
+	<span>span不會自動換行inline</span><!--不設置屬性width-->
+
+	<form action="/formprocess.php" method="post">
+		<!--表單htmls-->
+		<input type="text" name="name" placeholder="輸入名字">
+		<input type="password" name="password" placeholder="輸入密碼">
+		<input disabled>
+		<input type="text" name="edit" value="readonly" readonly>
+		<input autocomplete="off"><!--瀏覽器自動完成功能(類似儲存密碼之類的)-->
+		<input required><!--必填-->
+		<br>
+		<input type="checkbox" name="menu" value="coffee">coffee<br>
+		<input type="checkbox" name="menu" value="tea">tea<br>
+		<input type="checkbox" name="menu" value="alcohol" value="alcohol">alcohol<br><br>
+		<input type="submit" name="submit" value="submit">
+		<br><br>
+	</form>
+
+</body>
+</html>

@@ -1,0 +1,83 @@
+#container{
+	text-align: center;
+	margin: 0px auto;
+	width: 100%;
+    background-color: #eff3f7;
+}
+
+#banner{
+	height: 220px;
+	width: 100%;
+	background-color: #f19203;
+    margin-bottom: 20px;
+	margin-top: 30px;
+}
+
+#body{
+	width: 100%;
+	float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+#foot{
+	opacity: 0.5;
+	height: 270px;
+	width: 100%;
+	clear:both;
+	margin-bottom: 40px;
+	background-color: #e0dfde;
+}
+
+.circle{
+	width: 100px;
+	float: left;
+	padding: 50px 0;
+	line-height: 0;
+	margin: 50px 110px;
+	color: white;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: 1s;
+}
+
+.circle:hover{
+	transform: rotate(360deg);
+	background: #d6aa8df3;
+	opacity: 0.8;
+}
+
+.player1{
+	height: auto;
+	margin: 10px;
+	padding: 10px;
+	text-align: left;
+	float: left;
+	animation: pop1 0.7s forwards;
+}
+.info1{
+	float: left;
+}
+
+@keyframes pop1{
+	0%{transform: translateX(-2000px);}
+	100%{transform: translateX(20px);}
+}
+
+.player2{
+	height: auto;
+	margin: 20px;
+	padding: 10px;
+	text-align: left;
+	float: right;
+	animation: pop2 0.7s forwards;
+}
+.info2{
+	float: right;
+}
+
+@keyframes pop2{
+	0%{transform: translateX(2000px);}
+	100%{transform: translateX(-20px);}
+}

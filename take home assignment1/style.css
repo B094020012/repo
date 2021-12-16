@@ -1,0 +1,133 @@
+.card_container {
+    padding: 10px 0px; /* for padding sections */
+    display: flex;
+}
+#header{
+    width: 1024px;
+    height: 90px;
+    background-color: #0b3c5d;
+    padding-top: 20px;
+    padding-left: 5px;
+    float: left;
+    
+}
+
+#aacsb{
+    height: 23px;
+    width: auto;
+    border: 2px white solid;
+    position: relative;
+    bottom: 12px;
+
+}
+#rectangle{
+    height: 30px;
+    width: 8px;
+    background-color: #f3c677;
+    float: left;
+    margin: 10px;
+}
+.news{
+    clear: both;
+    width: 1024px;
+}
+h3{
+    position: relative;
+    top: 13px;
+    margin:3px;
+    padding-bottom: 10px;
+}
+
+.adjustPic{
+    height: 212px;
+    width: auto;
+    display: block;
+}
+.form{
+    padding: 0px;
+    font-size: 14px;
+    margin: 10px;
+}
+
+table,tr, td {
+    border: 1px solid lightgrey;
+    border-collapse: collapse;
+    padding: 0px;
+    margin: 0px;
+    border-spacing: 0px;
+
+}
+#first_section{
+    margin-left: 8px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.padding{
+    height: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+#second_section{
+    padding:0px;
+    display: block;
+    background-color: #0b3c5d;
+    width: 1024px;
+    color: white;
+}
+.boxes{
+    text-align: center;
+    color: #0b3c5d;
+    margin: 15px;
+    padding-top: 60px;
+    height: 100px;
+    width: 220px;
+    background-color: white;
+    border-radius: 0.2em;
+    
+}
+.display{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+#third_section{
+    padding: 0px;
+    display: block;
+}
+p{
+    padding: 5px 15px;
+    font-size: 16px;
+}
+footer{
+    background-color: #0b3c5d;
+    width: 1024px;
+}
+.logosize{
+    padding:8px;
+    height: 50px;
+}
+#copyright{
+    color: white;
+    font-size: 12px;
+    margin: 0px;
+    
+}
+hr{
+    position: relative;
+    right: 12px;
+    top: 5px;
+    width: 990px;
+    margin-bottom: 15px;
+}
+.font{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+}
+.form:hover{
+    box-shadow: 0 0 10px gray;
+}
+.boxes:hover{
+    filter: brightness(1.5);
+}

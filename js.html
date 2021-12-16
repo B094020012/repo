@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+</head>
+<body>
+    <!-- onclick 事件 -->
+    <p>onclick event</p>
+    <p onclick="changecolor(1);" id="demo">點擊後我會變色喔</p>
+    <button onclick="changecolor(2);">把字體變色</button>
+
+    <!-- onblur 事件 -->
+    <p>onblur event</p>
+    <label for="MyName">請輸入你的名字</label>
+    <input type="text" onblur="Show()" id="MyName" value="xxx"><br>
+
+    <p>onfocus event</p>
+    <label for="MyName">請輸入你的生日</label>
+    <input type="text" onfocus="focus_()"><br>
+
+    <p>onchange event</p>
+    <label for="MyName">請輸入你的英文名字</label>
+    <input type="text" onchange="change()" id="en"><br>
+    <p id="change"></p>
+
+    <script>
+        // onclick 點擊變色
+        function changecolor(x){
+            if(x == 1){
+                document.getElementById("demo").style.background = "red";
+            }else if(x == 2){
+                document.getElementById("demo").style.color = "blue";
+            }
+        }
+
+        function Show(){
+            var name = document.getElementById("MyName").value;
+            alert("你的名字是" + name);
+        }
+
+        function focus_(){
+            alert("輸入格式為yyyy-mm-dd");
+        }
+
+        function change(){
+            var name = document.getElementById("en").value;
+            console.log(name);
+            document.getElementById("change").innerHTML = name;
+        }
+
+    </script>
+</body>
+</html>
